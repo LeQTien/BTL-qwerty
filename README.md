@@ -105,9 +105,9 @@ int main(){
 			        KhoiTao();
 			        inOSo();
 			        while(1){
-			              if (kiemTraKetThuc()){
+			            if (kiemTraKetThuc()){
 			                printf("\n\tChuc mung ban da thang\n");
-			                break; 
+			                break;
 			            }
 			            int i = getch();
 			            DiChuyen(i);
@@ -119,8 +119,6 @@ int main(){
 			        c = getch();
 			        if (!(c=='C' || c=='c'))
 			            break;
-			        
-
 			    }
 			    return 0;
 			break;
