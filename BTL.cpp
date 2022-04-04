@@ -58,16 +58,12 @@ void Trai(){
     }
 }
 
-
 void Phai(){
     if(y<2){
         HoanVi(1);
         y++;
     }
 }
-
-
-
 
 void KhoiTao(){
     srand((unsigned int)time(0));
