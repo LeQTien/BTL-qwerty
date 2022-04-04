@@ -81,7 +81,6 @@ void DiChuyen(int i){
     if (i == 77) Trai();
     if (i == 72) Xuong();
     if (i == 80) Len();
-
 }
 
 int main(){
@@ -92,8 +91,8 @@ int main(){
 		system("cls");
 		printf("----------MENU----------\n");
 		printf("1. Tro choi moi\n");
-		printf("2. Huong dan choi\n");
-		printf("0. Thoat\n");
+		printf("2. Huong dan choi\n\n");
+		printf("An phim bat ky de thoat\n");
 		fflush(stdin);
 		chon=getch();
 		switch(chon){
@@ -138,7 +137,7 @@ int main(){
 				}while(c!='y');
 				break;
 				
-			case '0':
+			default:
 				system("cls");
 				printf("Hen gap lai ban lan sau\n");
 			break;
@@ -146,6 +145,3 @@ int main(){
 		}
 	}while(restart == 1);
 }
-
-
-
